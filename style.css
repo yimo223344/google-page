@@ -1,0 +1,104 @@
+
+body {
+margin-left: 0px;
+font-family: arial, sans-serif;
+font-size: 13px;
+color:#5f6368;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 20px;
+
+} 
+
+li {
+  display: inline;
+  padding: 5px;
+} 
+
+.li-float-right {
+  float:right;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+color:#5f6368;
+  }
+.main-content{
+}
+
+.content-group{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 600px;
+  }
+
+
+  /* Set “text-align: center” to parent element.
+  Then set the inside div to “display: inline-block” */
+
+#logo-img{
+  text-align: center;
+
+  padding:25px;
+}
+#search-bar {
+  text-align: center;
+  }
+#search-bar-input:hover{
+  box-shadow: 0 0 10px gray;
+  border:1px solid transparent;}
+
+#search-bar-input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #5f6368;
+  border-radius: 100px;
+  background-color: white;
+  background-image: url(icon.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+#buttons {
+text-align: center;
+padding:25px;
+  }
+.button {
+  margin:5px;
+  border: none;
+  background-color: #F6F6F6;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border:1px solid transparent;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color:#5f6368;
+}
+.button:hover {
+  border:1px solid #102447;
+  }
+
+#footer-content{
+    background-color:#F2F2F2; 
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    font-size: 14px;
+    color:#5f6368;
+    border-top: 0.2px solid #F2D5D5;
+    margin:0px;
+    padding:0px;
+    border:0px;
+  }
+}
+
